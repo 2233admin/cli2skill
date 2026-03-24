@@ -3,8 +3,8 @@
 </p>
 
 <h3 align="center">
-  🔧 Turn any CLI into an Agent Skill — zero MCP overhead<br/>
-  把任意 CLI 变成 Agent Skill —— 告别 MCP 进程泄漏
+  🔧 Turn any MCP into an Agent Skill — zero MCP overhead<br/>
+  把任意 MCP 变成 Agent Skill —— 告别 MCP 进程泄漏
 </h3>
 
 <p align="center">
