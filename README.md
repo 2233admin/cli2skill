@@ -75,6 +75,10 @@ Agent --Bash tool--> CLI (on-demand) --API--> Backend
 ## Quick Start · 快速开始
 
 ```bash
+# ClawHub (recommended for Claude Code users)
+clawhub install cli2skill
+
+# PyPI
 pip install cli2skill
 ```
 
