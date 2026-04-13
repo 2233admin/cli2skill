@@ -203,6 +203,6 @@ A: `cli2skill` 支持 `--wrap-mcp` 模式——生成一个 thin CLI wrapper 来
 
 ---
 
-*作者：[TODO]*
+*作者：[2233admin](https://github.com/2233admin)*
 *日期：2026-03-24*
 *License: MIT*

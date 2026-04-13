@@ -15,9 +15,11 @@
 </p>
 
 <p align="center">
+  <a href="https://pypi.org/project/cli2skill/"><img src="https://img.shields.io/pypi/v/cli2skill?color=blue" alt="PyPI"/></a>
   <img src="https://img.shields.io/badge/dependencies-zero-brightgreen" alt="zero dependencies"/>
   <img src="https://img.shields.io/badge/platforms-26+-blue" alt="26+ platforms"/>
   <img src="https://img.shields.io/badge/python-3.10+-yellow" alt="python 3.10+"/>
+  <a href="https://github.com/2233admin/cli2skill/stargazers"><img src="https://img.shields.io/github/stars/2233admin/cli2skill?style=social" alt="stars"/></a>
   <img src="https://img.shields.io/github/license/2233admin/cli2skill" alt="license"/>
 </p>
 
