@@ -6,6 +6,7 @@ import sys
 from .parser import run_help, parse_help_text, parse_subcommand_help
 from .generator import generate_skill
 from .mcp2skill import connect_and_extract, extract_from_config, generate_mcp_skill
+from .doctor import cmd_doctor
 
 
 def cmd_generate(args: argparse.Namespace) -> None:
@@ -145,6 +146,11 @@ def app() -> None:
     m.add_argument("--timeout", type=int, default=30, help="Timeout in seconds (default: 30)")
     m.add_argument("--env", action="append", default=[], help="Extra env vars (KEY=VALUE), repeatable")
     m.set_defaults(func=cmd_mcp)
+
+    # doctor
+    d = sub.add_parser("doctor", aliases=["dr", "audit"], help="Audit MCP routing chain for drift")
+    d.add_argument("--json", action="store_true", help="Output JSON instead of text")
+    d.set_defaults(func=cmd_doctor)
 
     args = p.parse_args()
     if not args.cmd:
